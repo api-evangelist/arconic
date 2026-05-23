@@ -1,0 +1,242 @@
+aid: arconic
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/arconic/refs/heads/main/apis.yml
+name: Arconic
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Aluminum
+  - Manufacturing
+  - Extrusions
+  - Rolled Products
+  - Building Products
+  - Architectural Systems
+  - Aerospace
+  - Automotive
+  - Packaging
+description: >-
+  Arconic Corporation is an aluminum solutions company producing rolled aluminum sheet
+  and plate, extrusions, and architectural building products for the aerospace, automotive,
+  commercial transportation, building & construction, industrial, and packaging markets.
+  Spun off from Alcoa in 2016, separated from Howmet Aerospace in 2020, and acquired
+  by Apollo Global Management in August 2023 for approximately $5.2 billion, Arconic
+  now operates as a private company headquartered in Pittsburgh, Pennsylvania. Key
+  brands include Kawneer architectural systems and Reynobond aluminum composite panels.
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis:
+  - aid: arconic:arconic-rolled-products
+    name: Arconic Rolled Products
+    tags:
+      - Aluminum
+      - Rolled Products
+      - Sheet
+      - Plate
+      - Coil
+    humanURL: https://www.arconic.com
+    properties:
+      - url: https://www.arconic.com
+        type: Documentation
+    description: >-
+      Rolled aluminum sheet, plate, and coil products serving aerospace, automotive,
+      commercial transportation, packaging (can sheet, can end stock, tab stock), and
+      industrial customers. Manufactured at integrated rolling mills including the
+      Davenport, Iowa and Tennessee Operations.
+
+  - aid: arconic:arconic-extrusions
+    name: Arconic Extrusions
+    tags:
+      - Aluminum
+      - Extrusions
+      - Aerospace
+      - Automotive
+      - Industrial
+    humanURL: https://www.arconic.com
+    properties:
+      - url: https://www.arconic.com
+        type: Documentation
+    description: >-
+      Hard-alloy aluminum extrusions for aerospace structural components, automotive
+      and commercial transportation parts, and industrial applications. Includes
+      seamless extruded tube, structural shapes, and custom profiles produced at
+      facilities in the United States and Europe.
+
+  - aid: arconic:arconic-building-construction-systems
+    name: Arconic Building & Construction Systems (Kawneer)
+    tags:
+      - Aluminum
+      - Architectural Systems
+      - Curtain Wall
+      - Storefronts
+      - Entrances
+      - Building Products
+    humanURL: https://www.kawneer.com
+    properties:
+      - url: https://www.kawneer.com
+        type: Documentation
+      - url: https://www.kawneer.com
+        type: Website
+    description: >-
+      Kawneer-branded architectural aluminum systems for commercial buildings —
+      curtain walls, window walls, storefront framing, doors and entrances,
+      architectural windows, sun control, overhead glazing, hurricane-resistant
+      systems, and blast-mitigating products. Markets include education, healthcare,
+      government/civic, retail, multifamily residential, office, and transportation.
+      Kawneer was founded in 1906 and is now part of Arconic.
+
+  - aid: arconic:arconic-reynobond-reynolux
+    name: Arconic Reynobond / Reynolux Architectural Panels
+    tags:
+      - Aluminum
+      - Composite Panels
+      - Architectural Cladding
+      - Building Products
+    humanURL: https://www.arconic.com
+    properties:
+      - url: https://www.arconic.com
+        type: Documentation
+    description: >-
+      Reynobond aluminum composite panels (ACP) and Reynolux coated aluminum sheet
+      for architectural cladding and rainscreen facade applications. Reynobond is
+      offered in fire-resistant (FR / A2) and other core variants; product history
+      includes the Reynobond PE cladding identified by the Grenfell Tower Inquiry
+      as a major contributor to the 2017 fire.
+
+  - aid: arconic:arconic-spectrochemical-reference-materials
+    name: Arconic Spectrochemical Certified Reference Materials
+    tags:
+      - Aluminum
+      - Reference Materials
+      - Metrology
+      - Laboratory
+      - Quality
+    humanURL: https://crms.arconic.com
+    properties:
+      - url: https://crms.arconic.com
+        type: Documentation
+      - url: https://crms.arconic.com
+        type: Portal
+    description: >-
+      Catalog of more than 340 certified spectrochemical reference materials covering
+      aluminum alloys for elemental analysis and laboratory calibration. Functions
+      as a digital catalog and quoting portal; orders are placed through Arconic
+      sales, authorized distributors, or Amazon. No public REST API.
+
+common:
+  - type: Website
+    url: https://www.arconic.com
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/arconic
+  - type: News
+    url: https://www.arconic.com/news
+  - type: Portal
+    url: https://crms.arconic.com
+  - type: Features
+    data:
+      - name: Rolled Aluminum Products
+        description: >-
+          Sheet, plate, and coil aluminum products engineered for aerospace, automotive,
+          commercial transportation, packaging, and industrial customers.
+      - name: Aluminum Extrusions
+        description: >-
+          Hard-alloy extruded shapes, seamless tube, and custom profiles for structural
+          aerospace, automotive, and industrial applications.
+      - name: Architectural Systems
+        description: >-
+          Kawneer-branded curtain walls, storefronts, entrances, and window systems
+          for commercial and institutional buildings.
+      - name: Composite Panels & Cladding
+        description: >-
+          Reynobond aluminum composite panels and Reynolux coated sheet for
+          architectural facades and rainscreen cladding.
+      - name: Certified Reference Materials
+        description: >-
+          Spectrochemical reference materials covering 340+ aluminum alloys for
+          laboratory calibration and elemental analysis.
+      - name: Global Manufacturing Footprint
+        description: >-
+          Operations across Canada, China, France, Germany, Hungary, the United
+          Kingdom, and the United States.
+  - type: UseCases
+    data:
+      - name: Aerospace Structures
+        description: >-
+          Aluminum sheet, plate, and extruded structural components for commercial
+          and defense aircraft fuselage, wing, and airframe assemblies.
+      - name: Automotive Body Sheet
+        description: >-
+          Lightweighting aluminum sheet for automotive body panels, closures, and
+          structural components used by major OEMs.
+      - name: Commercial Transportation
+        description: >-
+          Aluminum sheet and extrusions for tractor trailers, heavy trucks, rail,
+          and other transportation equipment.
+      - name: Beverage Packaging
+        description: >-
+          Can body stock, can end stock, and tab stock supplied to beverage and
+          food packaging customers.
+      - name: Commercial Building Facades
+        description: >-
+          Kawneer curtain wall, storefront, and window systems plus Reynobond
+          composite panels installed across commercial, institutional, and
+          multifamily buildings.
+      - name: Industrial & Defense
+        description: >-
+          High-purity aluminum and specialty plate for defense, aerospace, and
+          industrial applications including the recent $57.5M high-purity aluminum
+          capacity expansion.
+  - type: Integrations
+    data:
+      - name: Apollo Global Management
+        description: >-
+          Arconic was acquired by funds managed by Apollo Global Management in
+          August 2023 for approximately $5.2 billion and is now a privately held
+          Apollo portfolio company.
+      - name: Alcoa Lineage
+        description: >-
+          Arconic was spun off from Alcoa Inc. in November 2016; the rolled products,
+          extrusions, and architectural systems businesses trace their lineage to
+          Alcoa's downstream operations.
+      - name: Howmet Aerospace Separation
+        description: >-
+          In April 2020, the predecessor Arconic Inc. separated into Howmet Aerospace
+          (engineered products / fastening systems) and Arconic Corporation (rolled
+          products, extrusions, building & construction systems).
+      - name: Kawneer Architectural Network
+        description: >-
+          Kawneer products reach architects and general contractors through dealer,
+          glazier, and architectural representative networks across North America.
+      - name: Distributor & Service Center Network
+        description: >-
+          Rolled products and extrusions are distributed through metal service
+          centers and direct OEM supply agreements globally.
+  - type: Solutions
+    data:
+      - name: Aerospace & Defense
+        description: >-
+          Aluminum plate, sheet, and extruded structural components for commercial
+          aircraft, defense platforms, and space applications.
+      - name: Automotive & Commercial Transportation
+        description: >-
+          Body sheet, structural extrusions, and heat-treated plate for passenger
+          vehicles, light trucks, heavy trucks, and trailers.
+      - name: Building & Construction
+        description: >-
+          Kawneer architectural systems, Reynobond composite panels, and Reynolux
+          coated sheet for commercial buildings.
+      - name: Industrial Solutions
+        description: >-
+          Plate, sheet, and extrusions for general industrial machinery, tooling,
+          and equipment manufacturers.
+      - name: Packaging
+        description: >-
+          Aluminum can body stock, can end stock, and tab stock for beverage and
+          food packaging.
+      - name: Spectrochemical Reference Materials
+        description: >-
+          Certified reference materials supporting elemental analysis laboratories
+          across the aluminum and metals industry.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

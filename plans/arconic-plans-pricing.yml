@@ -1,0 +1,74 @@
+specification: API Commons Plans
+specificationVersion: '0.1'
+schema: https://raw.githubusercontent.com/api-evangelist/interface-research/main/schema/api-commons.yml#/$defs/Plans
+provider: Arconic
+providerId: arconic
+created: '2026-05-23'
+modified: '2026-05-23'
+reconciled: false
+tags:
+  - Aluminum
+  - Manufacturing
+  - Building Products
+  - Industrial
+description: >-
+  Arconic is a privately held aluminum manufacturer (Apollo Global Management portfolio
+  company since August 2023). There is no public developer pricing or self-service
+  API plan. Product purchases, Kawneer architectural systems, Reynobond cladding,
+  and Spectrochemical Reference Materials are sold through direct sales, distributor /
+  service-center networks, dealer/glazier networks (Kawneer), or authorized resellers.
+notes: >-
+  No public developer pricing — placeholder only. All commercial relationships are
+  governed by purchase orders, master supply agreements, or distributor contracts.
+sources:
+  - https://www.arconic.com
+  - https://www.kawneer.com
+  - https://crms.arconic.com
+plans:
+  - id: arconic-customer-account
+    name: Customer / Distributor Account
+    type: enterprise
+    description: >-
+      Direct customer, OEM, distributor, or service-center account for Arconic rolled
+      products, extrusions, architectural systems (Kawneer), and composite panels
+      (Reynobond / Reynolux).
+    entries:
+      - label: Customer account
+        name: customer_account
+        type: subscription
+        metric: contract
+        limit: -1
+        timeFrame: year
+        geo: global
+        unit: 1
+        price: contact Arconic sales
+        userMultiplied: false
+    elements:
+      - name: Rolled aluminum sheet, plate, and coil
+      - name: Aluminum extrusions and structural shapes
+      - name: Kawneer architectural systems (curtain wall, storefronts, entrances)
+      - name: Reynobond composite panels and Reynolux coated sheet
+      - name: Order coordination via sales agreement
+  - id: arconic-crms-catalog
+    name: Spectrochemical Reference Materials Catalog
+    type: catalog
+    description: >-
+      Per-item purchase of certified spectrochemical reference materials from the
+      Arconic CRMs catalog via direct order, authorized distributor, or Amazon.
+    entries:
+      - label: Per-item reference material
+        name: reference_material_unit
+        type: unit
+        metric: item
+        limit: -1
+        timeFrame: order
+        geo: global
+        unit: 1
+        price: per-item; contact Arconic CRMs or use authorized distributor / Amazon
+        userMultiplied: false
+    elements:
+      - name: 340+ certified aluminum alloy reference materials
+      - name: Quote and order via crms.arconic.com, distributors, or Amazon
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

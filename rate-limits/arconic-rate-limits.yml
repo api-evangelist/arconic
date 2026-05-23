@@ -1,0 +1,45 @@
+specification: API Commons Rate Limits
+specificationVersion: '0.1'
+schema: https://raw.githubusercontent.com/api-evangelist/interface-research/main/schema/api-commons.yml#/$defs/RateLimits
+provider: Arconic
+providerId: arconic
+created: '2026-05-23'
+modified: '2026-05-23'
+reconciled: false
+tags:
+  - Aluminum
+  - Manufacturing
+  - Industrial
+  - Rate Limiting
+description: >-
+  Arconic does not publish public developer rate-limit documentation. There is no
+  public REST API surface across Arconic's rolled products, extrusions, Kawneer
+  architectural systems, Reynobond composite panels, or the CRMs spectrochemical
+  reference materials catalog. Throughput on any commercial integration is governed
+  by the underlying customer or distributor agreement.
+notes: No public developer rate-limit documentation — placeholder only.
+sources:
+  - https://www.arconic.com
+  - https://www.kawneer.com
+  - https://crms.arconic.com
+responseCodes:
+  throttled: 429
+limits:
+  - name: Customer / supply-agreement throttling
+    scope: account
+    metric: varies
+    limit: governed by customer agreement; no public numeric ceiling
+policies:
+  - name: Contract-defined throttling
+    description: >-
+      Order volumes, EDI exchange frequency, and any integration cadence are
+      governed by the master supply or distributor agreement. Coordinate any
+      volume changes with the Arconic account team.
+  - name: Catalog access throttling
+    description: >-
+      The CRMs catalog and Kawneer technical-download areas are intended for
+      interactive browsing; bulk scraping is not supported and should be
+      coordinated with the Arconic sales / Kawneer technical teams.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
