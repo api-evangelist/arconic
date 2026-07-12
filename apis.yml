@@ -124,6 +124,8 @@ apis:
       sales, authorized distributors, or Amazon. No public REST API.
 
 common:
+  - type: DomainSecurity
+    url: security/arconic-domain-security.yml
   - type: Website
     url: https://www.arconic.com
   - type: LinkedIn
