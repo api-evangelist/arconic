@@ -1,4 +1,4 @@
-# Arconic (arconic)
+# Arconic
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,140 +66,103 @@
 
 Arconic Corporation is an aluminum solutions company producing rolled aluminum sheet and plate, extrusions, and architectural building products for the aerospace, automotive, commercial transportation, building & construction, industrial, and packaging markets. Spun off from Alcoa in 2016, separated from Howmet Aerospace in 2020, and acquired by Apollo Global Management in August 2023 for approximately $5.2 billion, Arconic now operates as a private company headquartered in Pittsburgh, Pennsylvania. Key brands include Kawneer architectural systems and Reynobond aluminum composite panels.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/arconic/refs/heads/main/apis.yml)
+**Areas:** Aluminum · Manufacturing · Extrusions · Rolled Products · Building Products · Architectural Systems · Aerospace · Automotive · Packaging
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## Arconic on APIs.io
 
-## Tags:
+Everything profiled for Arconic is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/arconic/](https://apis.io/providers/arconic/)** — or go straight to one of the APIs or properties below.
 
- - Aluminum, Manufacturing, Extrusions, Rolled Products, Building Products, Architectural Systems, Aerospace, Automotive, Packaging
+### APIs (5)
 
-## Timestamps
+- [Arconic Rolled Products](https://apis.io/apis/arconic/arconic-rolled-products/) — Rolled aluminum sheet, plate, and coil products serving aerospace, automotive, commercial transportation, packaging (can sheet, can end stock, tab stock),…
+- [Arconic Extrusions](https://apis.io/apis/arconic/arconic-extrusions/) — Hard-alloy aluminum extrusions for aerospace structural components, automotive and commercial transportation parts, and industrial applications. Includes…
+- [Arconic Building & Construction Systems (Kawneer)](https://apis.io/apis/arconic/arconic-building-construction-systems/) — Kawneer-branded architectural aluminum systems for commercial buildings — curtain walls, window walls, storefront framing, doors and entrances,…
+- [Arconic Reynobond / Reynolux Architectural Panels](https://apis.io/apis/arconic/arconic-reynobond-reynolux/) — Reynobond aluminum composite panels (ACP) and Reynolux coated aluminum sheet for architectural cladding and rainscreen facade applications. Reynobond is…
+- [Arconic Spectrochemical Certified Reference Materials](https://apis.io/apis/arconic/arconic-spectrochemical-reference-materials/) — Catalog of more than 340 certified spectrochemical reference materials covering aluminum alloys for elemental analysis and laboratory calibration. Functions…
 
-- **Created:** 2026-05-23
-- **Modified:** 2026-05-23
+### Published properties
 
-## APIs
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-### Arconic Rolled Products
-Rolled aluminum sheet, plate, and coil products serving aerospace, automotive, commercial transportation, packaging (can sheet, can end stock, tab stock), and industrial customers. Manufactured at integrated rolling mills including the Davenport, Iowa and Tennessee Operations.
+#### Security (1)
 
-**Human URL:** [https://www.arconic.com](https://www.arconic.com)
+Authentication, trust centre, and vulnerability disclosure.
 
-#### Tags:
+- [Arconic Domain Security](https://apis.io/security/arconic/arconic-domain-security/)
 
- - Aluminum, Rolled Products, Sheet, Plate, Coil
+#### Plans and pricing (1)
 
-#### Properties
+Published plans, tiers and prices.
 
-- [Documentation](https://www.arconic.com)
+- [Arconic Plans Pricing](https://apis.io/plans/arconic/arconic-plans-pricing/)
 
-### Arconic Extrusions
-Hard-alloy aluminum extrusions for aerospace structural components, automotive and commercial transportation parts, and industrial applications. Includes seamless extruded tube, structural shapes, and custom profiles produced at facilities in the United States and Europe.
+#### Rate limits (1)
 
-**Human URL:** [https://www.arconic.com](https://www.arconic.com)
+Published request limits.
 
-#### Tags:
+- [Arconic Rate Limits](https://apis.io/rate-limits/arconic/arconic-rate-limits/)
 
- - Aluminum, Extrusions, Aerospace, Automotive, Industrial
+#### FinOps (1)
 
-#### Properties
+What the API costs to run, by operation.
 
-- [Documentation](https://www.arconic.com)
+- [Arconic Finops](https://apis.io/finops/arconic/arconic-finops/)
 
-### Arconic Building & Construction Systems (Kawneer)
-Kawneer-branded architectural aluminum systems for commercial buildings — curtain walls, window walls, storefront framing, doors and entrances, architectural windows, sun control, overhead glazing, hurricane-resistant systems, and blast-mitigating products. Markets include education, healthcare, government/civic, retail, multifamily residential, office, and transportation. Kawneer was founded in 1906 and is now part of Arconic.
+## Where to find this API
 
-**Human URL:** [https://www.kawneer.com](https://www.kawneer.com)
-
-#### Tags:
-
- - Aluminum, Architectural Systems, Curtain Wall, Storefronts, Entrances, Building Products
-
-#### Properties
-
-- [Documentation](https://www.kawneer.com)
-- [Website](https://www.kawneer.com)
-
-### Arconic Reynobond / Reynolux Architectural Panels
-Reynobond aluminum composite panels (ACP) and Reynolux coated aluminum sheet for architectural cladding and rainscreen facade applications. Reynobond is offered in fire-resistant (FR / A2) and other core variants; product history includes the Reynobond PE cladding identified by the Grenfell Tower Inquiry as a major contributor to the 2017 fire.
-
-**Human URL:** [https://www.arconic.com](https://www.arconic.com)
-
-#### Tags:
-
- - Aluminum, Composite Panels, Architectural Cladding, Building Products
-
-#### Properties
-
-- [Documentation](https://www.arconic.com)
-
-### Arconic Spectrochemical Certified Reference Materials
-Catalog of more than 340 certified spectrochemical reference materials covering aluminum alloys for elemental analysis and laboratory calibration. Functions as a digital catalog and quoting portal; orders are placed through Arconic sales, authorized distributors, or Amazon. No public REST API.
-
-**Human URL:** [https://crms.arconic.com](https://crms.arconic.com)
-
-#### Tags:
-
- - Aluminum, Reference Materials, Metrology, Laboratory, Quality
-
-#### Properties
-
-- [Documentation](https://crms.arconic.com)
-- [Portal](https://crms.arconic.com)
-
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.arconic.com)
-- [LinkedIn](https://www.linkedin.com/company/arconic)
-- [News](https://www.arconic.com/news)
-- [Portal](https://crms.arconic.com)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| Rolled Aluminum Products | Sheet, plate, and coil aluminum products engineered for aerospace, automotive, commercial transportation, packaging, and industrial customers. |
-| Aluminum Extrusions | Hard-alloy extruded shapes, seamless tube, and custom profiles for structural aerospace, automotive, and industrial applications. |
-| Architectural Systems | Kawneer-branded curtain walls, storefronts, entrances, and window systems for commercial and institutional buildings. |
-| Composite Panels & Cladding | Reynobond aluminum composite panels and Reynolux coated sheet for architectural facades and rainscreen cladding. |
-| Certified Reference Materials | Spectrochemical reference materials covering 340+ aluminum alloys for laboratory calibration and elemental analysis. |
-| Global Manufacturing Footprint | Operations across Canada, China, France, Germany, Hungary, the United Kingdom, and the United States. |
+**Kin Score 10.5** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-## Use Cases
+| Facet | Score |
+|---|---|
+| Discoverability | 63.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 19.0 |
+| Access clarity | 5.3 |
 
-| Name | Description |
-|------|-------------|
-| Aerospace Structures | Aluminum sheet, plate, and extruded structural components for commercial and defense aircraft fuselage, wing, and airframe assemblies. |
-| Automotive Body Sheet | Lightweighting aluminum sheet for automotive body panels, closures, and structural components used by major OEMs. |
-| Commercial Transportation | Aluminum sheet and extrusions for tractor trailers, heavy trucks, rail, and other transportation equipment. |
-| Beverage Packaging | Can body stock, can end stock, and tab stock supplied to beverage and food packaging customers. |
-| Commercial Building Facades | Kawneer curtain wall, storefront, and window systems plus Reynobond composite panels installed across commercial, institutional, and multifamily buildings. |
-| Industrial & Defense | High-purity aluminum and specialty plate for defense, aerospace, and industrial applications including the recent $57.5M high-purity aluminum capacity expansion. |
+**Agent readiness 0.6** — human-only
 
-## Integrations
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-| Name | Description |
-|------|-------------|
-| Apollo Global Management | Arconic was acquired by funds managed by Apollo Global Management in August 2023 for approximately $5.2 billion and is now a privately held Apollo portfolio company. |
-| Alcoa Lineage | Arconic was spun off from Alcoa Inc. in November 2016; the rolled products, extrusions, and architectural systems businesses trace their lineage to Alcoa's downstream operations. |
-| Howmet Aerospace Separation | In April 2020, the predecessor Arconic Inc. separated into Howmet Aerospace (engineered products / fastening systems) and Arconic Corporation (rolled products, extrusions, building & construction systems). |
-| Kawneer Architectural Network | Kawneer products reach architects and general contractors through dealer, glazier, and architectural representative networks across North America. |
-| Distributor & Service Center Network | Rolled products and extrusions are distributed through metal service centers and direct OEM supply agreements globally. |
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
 
-## Solutions
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/arconic/](https://apis.io/providers/arconic/).
 
-| Name | Description |
-|------|-------------|
-| Aerospace & Defense | Aluminum plate, sheet, and extruded structural components for commercial aircraft, defense platforms, and space applications. |
-| Automotive & Commercial Transportation | Body sheet, structural extrusions, and heat-treated plate for passenger vehicles, light trucks, heavy trucks, and trailers. |
-| Building & Construction | Kawneer architectural systems, Reynobond composite panels, and Reynolux coated sheet for commercial buildings. |
-| Industrial Solutions | Plate, sheet, and extrusions for general industrial machinery, tooling, and equipment manufacturers. |
-| Packaging | Aluminum can body stock, can end stock, and tab stock for beverage and food packaging. |
-| Spectrochemical Reference Materials | Certified reference materials supporting elemental analysis laboratories across the aluminum and metals industry. |
+## How this profile is made
 
-## Maintainers
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-**FN:** Kin Lane
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Arconic: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-**Email:** kin@apievangelist.com
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/arconic/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
